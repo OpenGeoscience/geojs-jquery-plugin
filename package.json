@@ -1,5 +1,6 @@
 {
   "name": "geojs-jquery-plugin",
+  "repository": "OpenGeoscience/geojs-jquery-plugin",
   "version": "0.1.0",
   "description": "A jquery plugin that can be used to render simple maps with geojs.",
   "main": "index.js",
