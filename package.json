@@ -1,0 +1,37 @@
+{
+  "name": "geojs-jquery-plugin",
+  "version": "0.1.0",
+  "description": "A jquery plugin that can be used to render simple maps with geojs.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --cache .",
+    "test": "npm run lint && karma start --single-run",
+    "start": "karma start",
+    "codecov": "codecov"
+  },
+  "keywords": [
+    "geojs",
+    "jquery-plugin",
+    "map",
+    "gis"
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "geojs": "github:opengeoscience/geojs#dcf1d9d8",
+    "jquery": "^2.2.2",
+    "jquery-ui-bundle": "^1.11.4"
+  },
+  "optionalDependencies": {
+    "d3": "^3.5.16"
+  },
+  "devDependencies": {
+    "codecov": "^1.0.1",
+    "eslint": "^2.5.1",
+    "jasmine": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-coverage": "^0.5.5",
+    "karma-jasmine": "^0.3.8",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "phantomjs-prebuilt": "^2.1.7"
+  }
+}
