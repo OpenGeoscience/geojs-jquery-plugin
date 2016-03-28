@@ -17,7 +17,7 @@
   ],
   "license": "Apache-2.0",
   "dependencies": {
-    "geojs": "github:opengeoscience/geojs#6ae00a867474c8dd8e760b9e81ab04e7a09b1c7d",
+    "geojs": "^0.8.0",
     "jquery": "^2.2.2",
     "jquery-ui-bundle": "^1.11.4"
   },

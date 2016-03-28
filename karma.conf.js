@@ -2,8 +2,7 @@ module.exports = function (config) {
   config.set({
     files: [
       'test/index.js',
-      'node_modules/jquery/dist/jquery.js',
-      'node_modules/d3/d3.js',
+      'node_modules/geojs/geo.ext.min.js',
       'node_modules/geojs/geo.js',
       'node_modules/jquery-ui-bundle/jquery-ui.js',
       'index.js',

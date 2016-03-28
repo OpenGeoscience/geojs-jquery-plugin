@@ -5,16 +5,5 @@ cache:
   directories:
     - node_modules
 
-before_install:
-  - npm prune
-
-# temporary until next geojs release
-after_install:
-  - pushd node_modules/geojs
-  - npm install
-  - npm run build
-  - cp dist/built/geo.* .
-  - popd
-
 after_success:
   - npm run codecov
